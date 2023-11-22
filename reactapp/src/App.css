@@ -1,0 +1,28 @@
+
+
+
+
+.s {
+  background-color: black; /* הצבע המקורי של הכפתור */
+  color: #fff; /* הצבע המקורי של הטקסט בכפתור */
+  transition: background-color 0.5s ease;
+  width: 90px; /* רוחב הכפתור בפיקסלים */
+  height: 40px; /* גובה הכפתור בפיקסלים */ 
+  border:#fff;
+  /*border-radius: 50px 5px 50px 5px;/*מתחילים מלמעעלה לכיוון השעון*/
+  cursor:pointer;
+  padding: 10px 20px;
+  margin: 10px;
+
+}
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom right, #4fa0d6, #e2ca6c);
+}
+button:hover {
+  color: #282c34;
+  background-color:rgb(237, 244, 244); /* הצבע שבו הכפתור ישנה כשנעביר את העכבר מעליו */
+}
+
+
